@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+}
+#header {
+  background-color: rgb(100, 159, 253);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: white;
+  font-size: 70px;
+}
+
+#searcher {
+  height: min-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#searcher input {
+  height: 50px;
+  width: 40%;
+  font-size: 30px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+#searcher button {
+  height: 50px;
+  width: 5%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(168, 200, 252);
+  cursor: pointer;
+}
+
+#searcher button:active {
+  color: black;
+  background-color: white;
+}
+
+#sugestions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-bottom: 5px;
+}
+
+#sugestions button {
+  width: 400px;
+  height: 50px;
+  background-color: white;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#sugestions button:hover {
+  background-color: rgb(200, 198, 198);
+}
+#sugestions button:active {
+  background-color: rgb(255, 253, 253);
+}
+
+#infoBar {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(43, 119, 242);
+  height: min-content;
+}
+
+#inner {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(90, 154, 250);
+}
+
+#mainPic {
+  height: 200px;
+  margin: 10px;
+}
+
+#infoUl {
+  width: 50%;
+  display: flex;
+  font-size: 25px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+#infoUl li {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#infoBar h2 {
+  color: rgb(255, 255, 255);
+}
+
+#galery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgs {
+  width: 70%;
+  margin: 20px;
+}
